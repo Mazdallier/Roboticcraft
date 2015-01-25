@@ -18,7 +18,7 @@ public class Names
         public static final String SilverBlock = "SilverBlock";
         public static final String SteelBlock = "SteelBlock";
 
-        public static final String Constructor = "constructor";
+        public static final String Controller = "Controller";
         public static final String Crusher = "Crusher";
     }
     public static final class Ores
