@@ -5,15 +5,19 @@ import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
+import com.meadowcottage.Roboticcraft.common.Reference.Names;
+import com.meadowcottage.Roboticcraft.common.Reference.Textures;
 import com.meadowcottage.Roboticcraft.common.tile.TileEntityCrusher;
 
 public class BlockCrusher extends BlockContainer
 {
 
-	protected BlockCrusher(Material p_i45394_1_)
+	public BlockCrusher(Material p_i45394_1_)
 	{
 		super(p_i45394_1_);
-		// TODO Auto-generated constructor stub
+		this.setBlockName(Names.Blocks.Crusher);
+		this.setBlockTextureName(Textures.Blocks.CrusherBlock);
+		this.setStepSound(soundTypeMetal);
 	}
 
 	@Override

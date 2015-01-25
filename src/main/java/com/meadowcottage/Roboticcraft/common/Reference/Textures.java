@@ -18,7 +18,9 @@ public class Textures
         public static final String CopperBlock = "roboticcraft:CopperBlock";
         public static final String SilverBlock = "roboticcraft:SilverBlock";
         public static final String SteelBlock = "roboticcraft:SteelBlock";
+
         public static final String ConstructorBlock = "roboticcraft:Constructor";
+        public static final String CrusherBlock = "roboticcraft:Crusher";
     }
     public static final class Ores
     {
