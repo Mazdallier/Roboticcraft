@@ -7,7 +7,7 @@ Contributing
 
 Contributing
 =============
-Roboticcraft is open-source mod under the GPL v2 license. As a result, you may contribute to the development of the mod via pull requests.
+Roboticcraft is open-source mod under the MIT license. As a result, our mod is 100% open source and anyone is free to make a pull request to help support the mod.
 To set up the mod as to allow you to make changes, do the following:
 
 Clone the repository onto your local system.
