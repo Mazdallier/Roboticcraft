@@ -1,12 +1,13 @@
 package com.meadowcottage.Roboticcraft.common.Handler;
 
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
 import com.meadowcottage.Roboticcraft.common.Reference.Reference;
 
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.common.config.Configuration;
-
-import java.io.File;
 
 public class ConfigurationHandler
 {

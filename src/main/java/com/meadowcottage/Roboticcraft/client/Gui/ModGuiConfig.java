@@ -1,12 +1,13 @@
 package com.meadowcottage.Roboticcraft.client.Gui;
 
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraftforge.common.config.ConfigElement;
+import net.minecraftforge.common.config.Configuration;
+
 import com.meadowcottage.Roboticcraft.common.Handler.ConfigurationHandler;
 import com.meadowcottage.Roboticcraft.common.Reference.Reference;
 
 import cpw.mods.fml.client.config.GuiConfig;
-import net.minecraft.client.gui.GuiScreen;
-import net.minecraftforge.common.config.ConfigElement;
-import net.minecraftforge.common.config.Configuration;
 
 public class ModGuiConfig extends GuiConfig
 {

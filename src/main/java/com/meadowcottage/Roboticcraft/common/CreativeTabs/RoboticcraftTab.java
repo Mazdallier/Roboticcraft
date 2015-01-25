@@ -1,10 +1,10 @@
 package com.meadowcottage.Roboticcraft.common.CreativeTabs;
 
-import com.meadowcottage.Roboticcraft.common.Init.ModTools;
-import com.meadowcottage.Roboticcraft.common.Reference.Reference;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+
+import com.meadowcottage.Roboticcraft.common.Init.ModTools;
+import com.meadowcottage.Roboticcraft.common.Reference.Reference;
 
 public class RoboticcraftTab
 {

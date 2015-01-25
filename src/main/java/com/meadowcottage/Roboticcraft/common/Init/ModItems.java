@@ -1,6 +1,11 @@
 package com.meadowcottage.Roboticcraft.common.Init;
 
-import com.meadowcottage.Roboticcraft.common.Items.*;
+import com.meadowcottage.Roboticcraft.common.Items.ItemCopper;
+import com.meadowcottage.Roboticcraft.common.Items.ItemCopperDust;
+import com.meadowcottage.Roboticcraft.common.Items.ItemSilver;
+import com.meadowcottage.Roboticcraft.common.Items.ItemSilverDust;
+import com.meadowcottage.Roboticcraft.common.Items.ItemSteel;
+import com.meadowcottage.Roboticcraft.common.Items.ItemSteelDust;
 import com.meadowcottage.Roboticcraft.common.Reference.Names;
 import com.meadowcottage.Roboticcraft.common.Reference.Reference;
 

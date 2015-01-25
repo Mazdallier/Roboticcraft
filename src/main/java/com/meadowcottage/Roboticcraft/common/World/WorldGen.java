@@ -1,10 +1,10 @@
 package com.meadowcottage.Roboticcraft.common.World;
 
-import cpw.mods.fml.common.IWorldGenerator;
+import java.util.Random;
+
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
-
-import java.util.Random;
+import cpw.mods.fml.common.IWorldGenerator;
 
 public class WorldGen implements IWorldGenerator
 {
