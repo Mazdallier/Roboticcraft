@@ -7,6 +7,10 @@ public class Names
         public static final String Copper = "Copper";
         public static final String Silver = "Silver";
         public static final String Steel = "Steel";
+
+        public static final String CopperDust = "CopperDust";
+        public static final String SilverDust = "SilverDust";
+        public static final String SteelDust = "SteelDust";
     }
     public static final class Blocks
     {

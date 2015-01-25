@@ -7,6 +7,10 @@ public class Textures
         public static final String Copper = "roboticcraft:Copper";
         public static final String Silver = "roboticcraft:Silver";
         public static final String Steel = "roboticcraft:Steel";
+
+        public static final String CopperDust = "roboticcraft:CopperDust";
+        public static final String SilverDust = "roboticcraft:SilverDust";
+        public static final String SteelDust = "roboticcraft:SteelDust";
     }
 
     public static final class Blocks

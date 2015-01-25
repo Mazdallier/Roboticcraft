@@ -11,7 +11,7 @@ public class Recipes
     public static void init()
     {
         //Tool Crafting
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.Wrench, 1), "i i", " s ", " i ", 'i', ModItems.Steel, 's', ModItems.Silver));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModTools.Wrench, 1), "i i", " s ", " i ", 'i', ModItems.Steel, 's', ModItems.Silver));
 
         //Copper Crafting
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.CopperBlock), "vvv", "vvv", "vvv", 'v', ModItems.Copper));
