@@ -8,9 +8,9 @@ import net.minecraft.world.World;
 
 public class BlockRoboticcraftContainer extends BlockRoboticcraft implements ITileEntityProvider
 {
-	public BlockRoboticcraftContainer(Material p_i45394_1_)
+	public BlockRoboticcraftContainer(Material material)
 	{
-		super(p_i45394_1_);
+		super(material);
 		this.isBlockContainer = true;
 	}
 
@@ -18,30 +18,29 @@ public class BlockRoboticcraftContainer extends BlockRoboticcraft implements ITi
 	 * Called whenever the block is added into the world. Args: world, x, y, z
 	 */
 	@Override
-	public void onBlockAdded(World p_149726_1_, int p_149726_2_, int p_149726_3_, int p_149726_4_)
+	public void onBlockAdded(World world, int x, int y, int z)
 	{
-		super.onBlockAdded(p_149726_1_, p_149726_2_, p_149726_3_, p_149726_4_);
+		super.onBlockAdded(world, x, y, z);
 	}
 
 	@Override
-	public void breakBlock(World p_149749_1_, int p_149749_2_, int p_149749_3_, int p_149749_4_, Block p_149749_5_, int p_149749_6_)
+	public void breakBlock(World world, int x, int y, int z, Block block, int p_149749_6_)
 	{
-		super.breakBlock(p_149749_1_, p_149749_2_, p_149749_3_, p_149749_4_, p_149749_5_, p_149749_6_);
-		p_149749_1_.removeTileEntity(p_149749_2_, p_149749_3_, p_149749_4_);
+		super.breakBlock(world, x, y, z, block, p_149749_6_);
+		world.removeTileEntity(x, y, z);
 	}
 
 	@Override
-	public boolean onBlockEventReceived(World p_149696_1_, int p_149696_2_, int p_149696_3_, int p_149696_4_, int p_149696_5_, int p_149696_6_)
+	public boolean onBlockEventReceived(World world, int x, int y, int z, int p_149696_5_, int p_149696_6_)
 	{
-		super.onBlockEventReceived(p_149696_1_, p_149696_2_, p_149696_3_, p_149696_4_, p_149696_5_, p_149696_6_);
-		TileEntity tileentity = p_149696_1_.getTileEntity(p_149696_2_, p_149696_3_, p_149696_4_);
+		super.onBlockEventReceived(world, x, y, z, p_149696_5_, p_149696_6_);
+		TileEntity tileentity = world.getTileEntity(x, y, z);
 		return tileentity != null ? tileentity.receiveClientEvent(p_149696_5_, p_149696_6_) : false;
 	}
 
 	@Override
-	public TileEntity createNewTileEntity(World p_149915_1_, int p_149915_2_)
+	public TileEntity createNewTileEntity(World world, int p_149915_2_)
 	{
-		// TODO Auto-generated method stub
 		return null;
 	}
 
