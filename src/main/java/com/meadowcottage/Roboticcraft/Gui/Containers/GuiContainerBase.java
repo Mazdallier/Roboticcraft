@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.Gui;
+package com.meadowcottage.Roboticcraft.Gui.Containers;
 
 import net.minecraft.client.gui.Gui;
 

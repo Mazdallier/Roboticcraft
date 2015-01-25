@@ -5,7 +5,10 @@ itemGroup.roboticcraft=RoboticCraft
 tile.roboticcraft:CopperBlock.name=Copper Block
 tile.roboticcraft:SilverBlock.name=Silver Block
 tile.roboticcraft:SteelBlock.name=Steel Block
+
+#Machines
 tile.roboticcraft:constructor.name=Constructor
+tile.roboticcraft:Crusher.name=Crusher
 
 #Ores
 tile.roboticcraft:CopperOre.name=Copper Ore
