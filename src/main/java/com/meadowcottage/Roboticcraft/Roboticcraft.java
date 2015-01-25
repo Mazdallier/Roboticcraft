@@ -3,6 +3,7 @@ package com.meadowcottage.Roboticcraft;
 import com.meadowcottage.Roboticcraft.Handler.ConfigurationHandler;
 import com.meadowcottage.Roboticcraft.Init.ModBlocks;
 import com.meadowcottage.Roboticcraft.Init.ModItems;
+import com.meadowcottage.Roboticcraft.Init.ModTools;
 import com.meadowcottage.Roboticcraft.Init.Recipes;
 import com.meadowcottage.Roboticcraft.Proxy.IProxy;
 import com.meadowcottage.Roboticcraft.Reference.Reference;
@@ -33,6 +34,7 @@ public class Roboticcraft
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+        ModTools.init();
         ModBlocks.init();
     }
 
