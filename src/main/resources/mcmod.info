@@ -1,0 +1,16 @@
+[
+{
+  "modid": "roboticcraft",
+  "name": "RoboticCraft",
+  "description": "Robotic Craft is a mod based around adding in mechanised robots into minecraft",
+  "version": "1.0.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Meadowcottage"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

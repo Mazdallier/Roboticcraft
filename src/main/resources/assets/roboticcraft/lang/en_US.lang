@@ -1,0 +1,20 @@
+# Creative Tabs
+itemGroup.roboticcraft=RoboticCraft
+
+#Blocks
+tile.roboticcraft:CopperBlock.name=Copper Block
+tile.roboticcraft:SilverBlock.name=Silver Block
+tile.roboticcraft:SteelBlock.name=Steel Block
+tile.roboticcraft:constructor.name=Constructor
+
+#Ores
+tile.roboticcraft:CopperOre.name=Copper Ore
+tile.roboticcraft:SilverOre.name=Silver Ore
+
+#Items
+item.roboticcraft:Copper.name=Copper Ingot
+item.roboticcraft:Silver.name=Silver Ingot
+item.roboticcraft:Steel.name=Steel Ingot
+
+#Tools
+item.roboticcraft:Wrench.name=Wrench
