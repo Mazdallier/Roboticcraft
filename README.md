@@ -2,8 +2,8 @@ Roboticcraft
 =============
 Robotic craft is a mod for Minecraft which adds mechanised robots to the game. 
 Originally creator: Meadowcottage.
-Currently Maintained by: Meadowcottage.
-Contributing
+Currently Maintained by: Meadowcottage, Warlordjones, Zarthrion.
+Contributing: Meadowcottage, Warlordjones, Zarthrion.
 
 Contributing
 =============
