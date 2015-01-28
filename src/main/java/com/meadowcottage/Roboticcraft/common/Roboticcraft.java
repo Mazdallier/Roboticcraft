@@ -2,10 +2,7 @@ package com.meadowcottage.Roboticcraft.common;
 
 import com.meadowcottage.Roboticcraft.client.GuiHandler;
 import com.meadowcottage.Roboticcraft.common.Handler.ConfigurationHandler;
-import com.meadowcottage.Roboticcraft.common.Init.ModBlocks;
-import com.meadowcottage.Roboticcraft.common.Init.ModItems;
-import com.meadowcottage.Roboticcraft.common.Init.ModTools;
-import com.meadowcottage.Roboticcraft.common.Init.Recipes;
+import com.meadowcottage.Roboticcraft.common.Init.*;
 import com.meadowcottage.Roboticcraft.common.Proxy.IProxy;
 import com.meadowcottage.Roboticcraft.common.Reference.Reference;
 
@@ -45,6 +42,7 @@ public class Roboticcraft
 	public void init(FMLInitializationEvent event)
 	{
 		Recipes.init();
+        ModWorldGen.init();
 		NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
 	}
 
