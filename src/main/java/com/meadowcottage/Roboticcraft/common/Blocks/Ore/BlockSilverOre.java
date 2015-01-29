@@ -1,10 +1,10 @@
 package com.meadowcottage.Roboticcraft.common.Blocks.Ore;
 
-import com.meadowcottage.Roboticcraft.common.Blocks.BlockRoboticcraft;
+import com.meadowcottage.Roboticcraft.common.Blocks.BlockRoboticcraftOre;
 import com.meadowcottage.Roboticcraft.common.Reference.Names;
 import com.meadowcottage.Roboticcraft.common.Reference.Textures;
 
-public class BlockSilverOre extends BlockRoboticcraft
+public class BlockSilverOre extends BlockRoboticcraftOre
 {
     public BlockSilverOre()
     {
