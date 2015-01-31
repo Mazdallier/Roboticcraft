@@ -1,8 +1,8 @@
-package com.meadowcottage.Roboticcraft.client;
+package com.meadowcottage.roboticcraft.client;
 
-import com.meadowcottage.Roboticcraft.common.Proxy.CommonProxy;
+import com.meadowcottage.roboticcraft.common.proxy.CommonProxy;
 
 public class ClientProxy extends CommonProxy
 {
-    
+
 }

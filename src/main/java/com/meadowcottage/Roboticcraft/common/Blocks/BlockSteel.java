@@ -1,15 +1,15 @@
-package com.meadowcottage.Roboticcraft.common.Blocks;
+package com.meadowcottage.roboticcraft.common.blocks;
 
-import com.meadowcottage.Roboticcraft.common.Reference.Names;
-import com.meadowcottage.Roboticcraft.common.Reference.Textures;
+import com.meadowcottage.roboticcraft.common.reference.Names;
+import com.meadowcottage.roboticcraft.common.reference.Textures;
 
 public class BlockSteel extends BlockRoboticcraft
 {
-    public BlockSteel()
-    {
-        super();
-        this.setBlockName(Names.Blocks.SteelBlock);
-        this.setBlockTextureName(Textures.Blocks.SteelBlock);
-        this.setStepSound(soundTypeMetal);
-    }
+	public BlockSteel()
+	{
+		super();
+		this.setBlockName(Names.Blocks.SteelBlock);
+		this.setBlockTextureName(Textures.Blocks.SteelBlock);
+		this.setStepSound(soundTypeMetal);
+	}
 }

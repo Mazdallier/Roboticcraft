@@ -1,12 +1,12 @@
-package com.meadowcottage.Roboticcraft.client;
+package com.meadowcottage.roboticcraft.client;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
-import com.meadowcottage.Roboticcraft.client.Gui.GuiCrusher;
-import com.meadowcottage.Roboticcraft.common.container.ContainerCrusher;
-import com.meadowcottage.Roboticcraft.common.tile.TileEntityCrusher;
+import com.meadowcottage.roboticcraft.client.gui.GuiCrusher;
+import com.meadowcottage.roboticcraft.common.container.ContainerCrusher;
+import com.meadowcottage.roboticcraft.common.tile.TileEntityCrusher;
 
 import cpw.mods.fml.common.network.IGuiHandler;
 

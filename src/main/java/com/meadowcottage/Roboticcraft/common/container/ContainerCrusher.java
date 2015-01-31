@@ -1,11 +1,11 @@
-package com.meadowcottage.Roboticcraft.common.container;
+package com.meadowcottage.roboticcraft.common.container;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
 
-import com.meadowcottage.Roboticcraft.common.tile.TileEntityCrusher;
+import com.meadowcottage.roboticcraft.common.tile.TileEntityCrusher;
 
 public class ContainerCrusher extends Container
 {

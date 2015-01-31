@@ -1,13 +1,13 @@
-package com.meadowcottage.Roboticcraft.common.Init;
+package com.meadowcottage.roboticcraft.common.init;
 
-import com.meadowcottage.Roboticcraft.common.Items.ItemCopper;
-import com.meadowcottage.Roboticcraft.common.Items.ItemCopperDust;
-import com.meadowcottage.Roboticcraft.common.Items.ItemSilver;
-import com.meadowcottage.Roboticcraft.common.Items.ItemSilverDust;
-import com.meadowcottage.Roboticcraft.common.Items.ItemSteel;
-import com.meadowcottage.Roboticcraft.common.Items.ItemSteelDust;
-import com.meadowcottage.Roboticcraft.common.Reference.Names;
-import com.meadowcottage.Roboticcraft.common.Reference.Reference;
+import com.meadowcottage.roboticcraft.common.items.ItemCopper;
+import com.meadowcottage.roboticcraft.common.items.ItemCopperDust;
+import com.meadowcottage.roboticcraft.common.items.ItemSilver;
+import com.meadowcottage.roboticcraft.common.items.ItemSilverDust;
+import com.meadowcottage.roboticcraft.common.items.ItemSteel;
+import com.meadowcottage.roboticcraft.common.items.ItemSteelDust;
+import com.meadowcottage.roboticcraft.common.reference.Names;
+import com.meadowcottage.roboticcraft.common.reference.Reference;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

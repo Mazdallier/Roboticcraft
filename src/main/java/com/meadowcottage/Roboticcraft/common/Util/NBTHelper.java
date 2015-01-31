@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.Util;
+package com.meadowcottage.roboticcraft.common.util;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;

@@ -1,7 +1,8 @@
-package com.meadowcottage.Roboticcraft.common.World;
+package com.meadowcottage.roboticcraft.common.world;
 
-import com.meadowcottage.Roboticcraft.common.Reference.Names;
 import net.minecraftforge.common.config.Configuration;
+
+import com.meadowcottage.roboticcraft.common.reference.Names;
 
 public class ConfigGen
 {

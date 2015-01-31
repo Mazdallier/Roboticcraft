@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.client.Gui;
+package com.meadowcottage.roboticcraft.client.gui;
 
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -6,9 +6,9 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import com.meadowcottage.Roboticcraft.common.Reference.Reference;
-import com.meadowcottage.Roboticcraft.common.container.ContainerCrusher;
-import com.meadowcottage.Roboticcraft.common.tile.TileEntityCrusher;
+import com.meadowcottage.roboticcraft.common.container.ContainerCrusher;
+import com.meadowcottage.roboticcraft.common.reference.Reference;
+import com.meadowcottage.roboticcraft.common.tile.TileEntityCrusher;
 
 public class GuiCrusher extends GuiContainer
 {

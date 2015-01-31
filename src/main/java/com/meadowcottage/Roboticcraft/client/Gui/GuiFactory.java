@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.client.Gui;
+package com.meadowcottage.roboticcraft.client.gui;
 
 import java.util.Set;
 

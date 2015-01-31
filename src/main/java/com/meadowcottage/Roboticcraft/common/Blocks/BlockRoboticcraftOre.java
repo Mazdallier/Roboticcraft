@@ -1,12 +1,12 @@
-package com.meadowcottage.Roboticcraft.common.Blocks;
+package com.meadowcottage.roboticcraft.common.blocks;
 
-import com.meadowcottage.Roboticcraft.common.CreativeTabs.RoboticcraftTab;
+import com.meadowcottage.roboticcraft.common.RoboticcraftTab;
 
 public class BlockRoboticcraftOre extends BlockRoboticcraft
 {
-    public BlockRoboticcraftOre()
-    {
-        super();
-        this.setCreativeTab(RoboticcraftTab.RoboticcraftTab);
-    }
+	public BlockRoboticcraftOre()
+	{
+		super();
+		this.setCreativeTab(RoboticcraftTab.RoboticcraftTab);
+	}
 }

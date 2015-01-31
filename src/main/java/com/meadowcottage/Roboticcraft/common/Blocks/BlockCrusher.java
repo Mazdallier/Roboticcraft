@@ -1,15 +1,15 @@
-package com.meadowcottage.Roboticcraft.common.Blocks;
+package com.meadowcottage.roboticcraft.common.blocks;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
-import com.meadowcottage.Roboticcraft.client.GuiIDs;
-import com.meadowcottage.Roboticcraft.common.Roboticcraft;
-import com.meadowcottage.Roboticcraft.common.Reference.Names;
-import com.meadowcottage.Roboticcraft.common.Reference.Textures;
-import com.meadowcottage.Roboticcraft.common.tile.TileEntityCrusher;
+import com.meadowcottage.roboticcraft.client.GuiIDs;
+import com.meadowcottage.roboticcraft.common.Roboticcraft;
+import com.meadowcottage.roboticcraft.common.reference.Names;
+import com.meadowcottage.roboticcraft.common.reference.Textures;
+import com.meadowcottage.roboticcraft.common.tile.TileEntityCrusher;
 
 public class BlockCrusher extends BlockRoboticcraftContainer
 {

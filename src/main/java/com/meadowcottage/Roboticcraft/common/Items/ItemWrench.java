@@ -1,12 +1,12 @@
-package com.meadowcottage.Roboticcraft.common.Items;
+package com.meadowcottage.roboticcraft.common.items;
 
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-import com.meadowcottage.Roboticcraft.common.Reference.Names;
-import com.meadowcottage.Roboticcraft.common.Reference.Textures;
+import com.meadowcottage.roboticcraft.common.reference.Names;
+import com.meadowcottage.roboticcraft.common.reference.Textures;
 
 public class ItemWrench extends ItemRoboticCraft implements IUniversalWrench
 {

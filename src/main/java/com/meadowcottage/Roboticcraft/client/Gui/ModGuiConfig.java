@@ -1,11 +1,11 @@
-package com.meadowcottage.Roboticcraft.client.Gui;
+package com.meadowcottage.roboticcraft.client.gui;
 
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;
 
-import com.meadowcottage.Roboticcraft.common.Handler.ConfigurationHandler;
-import com.meadowcottage.Roboticcraft.common.Reference.Reference;
+import com.meadowcottage.roboticcraft.common.handler.ConfigurationHandler;
+import com.meadowcottage.roboticcraft.common.reference.Reference;
 
 import cpw.mods.fml.client.config.GuiConfig;
 

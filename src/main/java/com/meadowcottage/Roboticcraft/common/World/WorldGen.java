@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.World;
+package com.meadowcottage.roboticcraft.common.world;
 
 import java.util.Random;
 
@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 
-import com.meadowcottage.Roboticcraft.common.Init.ModBlocks;
+import com.meadowcottage.roboticcraft.common.init.ModBlocks;
 
 import cpw.mods.fml.common.IWorldGenerator;
 

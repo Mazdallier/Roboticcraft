@@ -1,7 +1,7 @@
-package com.meadowcottage.Roboticcraft.common.Blocks;
+package com.meadowcottage.roboticcraft.common.blocks;
 
-import com.meadowcottage.Roboticcraft.common.Reference.Names;
-import com.meadowcottage.Roboticcraft.common.Reference.Textures;
+import com.meadowcottage.roboticcraft.common.reference.Names;
+import com.meadowcottage.roboticcraft.common.reference.Textures;
 
 public class BlockController extends BlockRoboticcraft
 {

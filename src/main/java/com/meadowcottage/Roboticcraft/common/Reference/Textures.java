@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.Reference;
+package com.meadowcottage.roboticcraft.common.reference;
 
 public class Textures
 {

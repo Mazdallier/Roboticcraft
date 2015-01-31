@@ -1,8 +1,8 @@
-package com.meadowcottage.Roboticcraft.common.Init;
+package com.meadowcottage.roboticcraft.common.init;
 
-import com.meadowcottage.Roboticcraft.common.Items.ItemWrench;
-import com.meadowcottage.Roboticcraft.common.Reference.Names;
-import com.meadowcottage.Roboticcraft.common.Reference.Reference;
+import com.meadowcottage.roboticcraft.common.items.ItemWrench;
+import com.meadowcottage.roboticcraft.common.reference.Names;
+import com.meadowcottage.roboticcraft.common.reference.Reference;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.Helper;
+package com.meadowcottage.roboticcraft.common.helper;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;

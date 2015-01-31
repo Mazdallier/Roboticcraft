@@ -1,10 +1,10 @@
-package com.meadowcottage.Roboticcraft.common.Items;
+package com.meadowcottage.roboticcraft.common.items;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-import com.meadowcottage.Roboticcraft.common.CreativeTabs.RoboticcraftTab;
-import com.meadowcottage.Roboticcraft.common.Reference.Reference;
+import com.meadowcottage.roboticcraft.common.RoboticcraftTab;
+import com.meadowcottage.roboticcraft.common.reference.Reference;
 
 public class ItemRoboticCraft extends Item
 {

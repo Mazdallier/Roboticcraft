@@ -1,12 +1,16 @@
-package com.meadowcottage.Roboticcraft.common;
+package com.meadowcottage.roboticcraft.common;
 
-import com.meadowcottage.Roboticcraft.client.GuiHandler;
-import com.meadowcottage.Roboticcraft.common.Handler.ConfigurationHandler;
-import com.meadowcottage.Roboticcraft.common.Init.*;
-import com.meadowcottage.Roboticcraft.common.Proxy.IProxy;
-import com.meadowcottage.Roboticcraft.common.Reference.Reference;
+import com.meadowcottage.roboticcraft.client.GuiHandler;
+import com.meadowcottage.roboticcraft.common.handler.ConfigurationHandler;
+import com.meadowcottage.roboticcraft.common.init.ModBlocks;
+import com.meadowcottage.roboticcraft.common.init.ModItems;
+import com.meadowcottage.roboticcraft.common.init.ModTools;
+import com.meadowcottage.roboticcraft.common.init.ModWorldGen;
+import com.meadowcottage.roboticcraft.common.init.Recipes;
+import com.meadowcottage.roboticcraft.common.proxy.IProxy;
+import com.meadowcottage.roboticcraft.common.reference.Reference;
+import com.meadowcottage.roboticcraft.common.world.WorldGen;
 
-import com.meadowcottage.Roboticcraft.common.World.WorldGen;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;

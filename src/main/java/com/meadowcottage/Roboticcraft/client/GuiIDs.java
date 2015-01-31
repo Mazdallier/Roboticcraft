@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.client;
+package com.meadowcottage.roboticcraft.client;
 
 public class GuiIDs
 {

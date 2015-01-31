@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.Items;
+package com.meadowcottage.roboticcraft.common.items;
 
 import buildcraft.api.tools.IToolWrench;
 import cofh.api.item.IToolHammer;

@@ -1,7 +1,5 @@
-package com.meadowcottage.Roboticcraft.common.Init;
+package com.meadowcottage.roboticcraft.common.init;
 
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;

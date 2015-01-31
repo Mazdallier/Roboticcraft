@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.Init;
+package com.meadowcottage.roboticcraft.common.init;
 
 public class ModWorldGen
 {

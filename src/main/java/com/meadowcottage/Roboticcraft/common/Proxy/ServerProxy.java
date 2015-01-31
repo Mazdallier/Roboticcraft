@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.Proxy;
+package com.meadowcottage.roboticcraft.common.proxy;
 
 public class ServerProxy extends CommonProxy
 {

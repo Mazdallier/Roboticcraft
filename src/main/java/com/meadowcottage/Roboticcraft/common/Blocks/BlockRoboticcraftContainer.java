@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.Blocks;
+package com.meadowcottage.roboticcraft.common.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;

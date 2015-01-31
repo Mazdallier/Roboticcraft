@@ -1,15 +1,15 @@
-package com.meadowcottage.Roboticcraft.common.Init;
+package com.meadowcottage.roboticcraft.common.init;
 
 import net.minecraft.block.material.Material;
 
-import com.meadowcottage.Roboticcraft.common.Blocks.BlockController;
-import com.meadowcottage.Roboticcraft.common.Blocks.BlockCopper;
-import com.meadowcottage.Roboticcraft.common.Blocks.BlockCrusher;
-import com.meadowcottage.Roboticcraft.common.Blocks.BlockSilver;
-import com.meadowcottage.Roboticcraft.common.Blocks.BlockSteel;
-import com.meadowcottage.Roboticcraft.common.Blocks.Ore.BlockCopperOre;
-import com.meadowcottage.Roboticcraft.common.Blocks.Ore.BlockSilverOre;
-import com.meadowcottage.Roboticcraft.common.Reference.Names;
+import com.meadowcottage.roboticcraft.common.blocks.BlockController;
+import com.meadowcottage.roboticcraft.common.blocks.BlockCopper;
+import com.meadowcottage.roboticcraft.common.blocks.BlockCrusher;
+import com.meadowcottage.roboticcraft.common.blocks.BlockSilver;
+import com.meadowcottage.roboticcraft.common.blocks.BlockSteel;
+import com.meadowcottage.roboticcraft.common.blocks.ore.BlockCopperOre;
+import com.meadowcottage.roboticcraft.common.blocks.ore.BlockSilverOre;
+import com.meadowcottage.roboticcraft.common.reference.Names;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

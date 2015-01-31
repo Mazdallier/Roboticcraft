@@ -1,4 +1,4 @@
-package com.meadowcottage.Roboticcraft.common.tile;
+package com.meadowcottage.roboticcraft.common.tile;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
