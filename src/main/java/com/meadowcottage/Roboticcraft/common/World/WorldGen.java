@@ -2,60 +2,69 @@ package com.meadowcottage.Roboticcraft.common.World;
 
 import java.util.Random;
 
-import com.meadowcottage.Roboticcraft.common.Init.ModBlocks;
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
-import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.world.gen.feature.WorldGenMinable;
+
+import com.meadowcottage.Roboticcraft.common.Init.ModBlocks;
+
+import cpw.mods.fml.common.IWorldGenerator;
 
 public class WorldGen implements IWorldGenerator
 {
-	//Attempt #1
+
 	@Override
-	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
-		switch(world.provider.dimensionId){
-			case 0:
-				generateSurface(world, random, chunkX * 16, chunkZ * 16);
-				break;
-		}
-	}
-	private void generateSurface(World world, Random rand, int chunkX, int chunkZ) {
-		for(int k = 0; k < 10; k++){
-			int x = chunkX + rand.nextInt(16);
-			int y = rand.nextInt(64);
-			int z = chunkZ + rand.nextInt(16);
+	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider)
+	{
+		int blockChunkX = chunkX * 16;
+		int blockChunkZ = chunkZ * 16;
 
-			(new WorldGenMinable(ModBlocks.CopperOre, 13)).generate(world, rand, x, y, z);
-			(new WorldGenMinable(ModBlocks.SilverOre, 13)).generate(world, rand, x, y, z);
-		}
+		if (world.provider.dimensionId == -1)
+			this.generateNether(world, random, blockChunkX, blockChunkZ);
+		else if (world.provider.dimensionId == 0)
+			this.generateSurface(world, random, blockChunkX, blockChunkZ);
+		else if ((world.provider.dimensionId == 1))
+			this.generateEnd(world, random, blockChunkX, blockChunkZ);
+		else
+			this.generateOther(world, random, blockChunkX, blockChunkZ);
 	}
 
-	//Attempt #2
-	/*@Override
-	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
+	private void generateSurface(World world, Random random, int chunkX, int chunkZ)
+	{
+		this.generateOre(world, random, chunkX, chunkZ, 10, 20, 40, 7, ModBlocks.CopperOre, 0, Blocks.stone);
+		this.generateOre(world, random, chunkX, chunkZ, 10, 20, 40, 5, ModBlocks.SilverOre, 0, Blocks.stone);
+	}
 
-		if (!world.provider.isSurfaceWorld()) {
-			return;
-		}
-		if (ConfigGen.generateSilver) {
-			this.addOreToGenerate(random, ConfigGen.veinCountSilver, ConfigGen.veinSizeSilver, ConfigGen.minSilverY, ConfigGen.maxSilverY, ModBlocks.SilverOre, world,
-				chunkX, chunkZ);
-		}
-		if (ConfigGen.generateCopper) {
-			this.addOreToGenerate(random, ConfigGen.veinCountCopper, ConfigGen.veinSizeCopper, ConfigGen.minCopperY, ConfigGen.maxCopperY, ModBlocks.CopperOre, world,
-				chunkX, chunkZ);
+	private void generateOther(World world, Random random, int chunkX, int chunkZ)
+	{
+		this.generateOre(world, random, chunkX, chunkZ, 10, 20, 40, 7, ModBlocks.CopperOre, 0, Blocks.stone);
+		this.generateOre(world, random, chunkX, chunkZ, 10, 20, 40, 5, ModBlocks.SilverOre, 0, Blocks.stone);
+	}
+
+	private void generateNether(World world, Random random, int chunkX, int chunkZ)
+	{
+
+	}
+
+	private void generateEnd(World world, Random random, int chunkX, int chunkZ)
+	{
+
+	}
+
+	/** Useful Helper Method **/
+	private void generateOre(World world, Random random, int chunkX, int chunkZ, int blockPerChunk, int minHeight, int maxHeight, int blocks,
+			Block ore, int meta, Block blockToGenIn)
+	{
+		for (int i = 0; i < blockPerChunk; i++)
+		{
+			int oreXCoord = chunkX + random.nextInt(16);
+			int oreYCoord = minHeight + random.nextInt(maxHeight - minHeight);
+			int oreZCoord = chunkZ + random.nextInt(16);
+
+			new WorldGenMinable(ore, meta, blocks, blockToGenIn).generate(world, random, oreXCoord, oreYCoord, oreZCoord);
 		}
 	}
 
-	private void addOreToGenerate(Random random, int veinCount, int veinSize, int minY, int maxY, Block block, World world, int chunkX, int chunkZ) {
-
-		for(int k = 0; k < 10; k++){
-			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(64);
-			int z = chunkZ + random.nextInt(16);
-
-			(new WorldGenMinable(ModBlocks.CopperOre, 13)).generate(world, random, x, y, z);
-			(new WorldGenMinable(ModBlocks.SilverOre, 13)).generate(world, random, x, y, z);
-		}
-	}*/
 }
