@@ -6,17 +6,17 @@ import com.meadowcottage.roboticcraft.common.reference.Names;
 
 public class ConfigGen
 {
-	public static boolean  generateCopper;
-	public static int      minCopperY;
-	public static int      maxCopperY;
-	public static int      veinCountCopper;
-	public static int      veinSizeCopper;
+	public static boolean generateCopper;
+	public static int minCopperY;
+	public static int maxCopperY;
+	public static int veinCountCopper;
+	public static int veinSizeCopper;
 
-	public static boolean  generateSilver;
-	public static int      minSilverY;
-	public static int      maxSilverY;
-	public static int      veinCountSilver;
-	public static int      veinSizeSilver;
+	public static boolean generateSilver;
+	public static int minSilverY;
+	public static int maxSilverY;
+	public static int veinCountSilver;
+	public static int veinSizeSilver;
 
 	public static void oreConfig(Configuration oreConfig) {
 
@@ -29,7 +29,7 @@ public class ConfigGen
 		generateSilver = oreConfig.get(Names.Ores.SilverOre, "generateSilver", true).getBoolean(true);
 		minSilverY = oreConfig.get(Names.Ores.SilverOre, "minSilverY", 10).getInt();
 		maxSilverY = oreConfig.get(Names.Ores.SilverOre, "maxSilverY", 90).getInt();
-		veinCountSilver = oreConfig.get(Names.Ores.SilverOre, "veinCountSilver", 3).getInt();
-		veinSizeSilver = oreConfig.get(Names.Ores.SilverOre, "veinSizeSilver", 6).getInt();
+		veinCountSilver = oreConfig.get(Names.Ores.SilverOre, "veinCountSilver", 8).getInt();
+		veinSizeSilver = oreConfig.get(Names.Ores.SilverOre, "veinSizeSilver", 7).getInt();
 	}
 }
