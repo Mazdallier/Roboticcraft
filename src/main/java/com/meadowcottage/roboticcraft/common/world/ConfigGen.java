@@ -23,13 +23,13 @@ public class ConfigGen
 		generateCopper = oreConfig.get(Names.Ores.CopperOre, "generateCopper", true).getBoolean(true);
 		minCopperY = oreConfig.get(Names.Ores.CopperOre, "minCopperY", 10).getInt();
 		maxCopperY = oreConfig.get(Names.Ores.CopperOre, "maxCopperY", 90).getInt();
-		veinCountCopper = oreConfig.get(Names.Ores.CopperOre, "veinCountCopper", 8).getInt();
-		veinSizeCopper = oreConfig.get(Names.Ores.CopperOre, "veinSizeCopper", 7).getInt();
+		veinCountCopper = oreConfig.get(Names.Ores.CopperOre, "veinCountCopper", 10).getInt();
+		veinSizeCopper = oreConfig.get(Names.Ores.CopperOre, "veinSizeCopper", 8).getInt();
 
 		generateSilver = oreConfig.get(Names.Ores.SilverOre, "generateSilver", true).getBoolean(true);
 		minSilverY = oreConfig.get(Names.Ores.SilverOre, "minSilverY", 10).getInt();
 		maxSilverY = oreConfig.get(Names.Ores.SilverOre, "maxSilverY", 90).getInt();
-		veinCountSilver = oreConfig.get(Names.Ores.SilverOre, "veinCountSilver", 8).getInt();
-		veinSizeSilver = oreConfig.get(Names.Ores.SilverOre, "veinSizeSilver", 7).getInt();
+		veinCountSilver = oreConfig.get(Names.Ores.SilverOre, "veinCountSilver", 10).getInt();
+		veinSizeSilver = oreConfig.get(Names.Ores.SilverOre, "veinSizeSilver", 8).getInt();
 	}
 }
