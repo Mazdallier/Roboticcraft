@@ -33,14 +33,22 @@ public class WorldGen implements IWorldGenerator
 
 	private void generateSurface(World world, Random random, int chunkX, int chunkZ)
 	{
-		this.generateOre(world, random, chunkX, chunkZ, 10, 20, 40, 7, ModBlocks.CopperOre, 0, Blocks.stone);
-		this.generateOre(world, random, chunkX, chunkZ, 10, 20, 40, 5, ModBlocks.SilverOre, 0, Blocks.stone);
+		if (ConfigGen.generateCopper)
+			this.generateOre(world, random, chunkX, chunkZ, ConfigGen.veinCountCopper + 100, ConfigGen.minCopperY, ConfigGen.maxSilverY,
+					ConfigGen.veinSizeCopper, ModBlocks.CopperOre, 0, Blocks.stone);
+		if (ConfigGen.generateSilver)
+			this.generateOre(world, random, chunkX, chunkZ, ConfigGen.veinCountSilver + 100, ConfigGen.minSilverY, ConfigGen.maxSilverY,
+					ConfigGen.veinSizeSilver, ModBlocks.SilverOre, 0, Blocks.stone);
 	}
 
 	private void generateOther(World world, Random random, int chunkX, int chunkZ)
 	{
-		this.generateOre(world, random, chunkX, chunkZ, 10, 20, 40, 7, ModBlocks.CopperOre, 0, Blocks.stone);
-		this.generateOre(world, random, chunkX, chunkZ, 10, 20, 40, 5, ModBlocks.SilverOre, 0, Blocks.stone);
+		if (ConfigGen.generateCopper)
+			this.generateOre(world, random, chunkX, chunkZ, ConfigGen.veinCountCopper, ConfigGen.minCopperY, ConfigGen.maxSilverY,
+					ConfigGen.veinSizeCopper, ModBlocks.CopperOre, 0, Blocks.stone);
+		if (ConfigGen.generateSilver)
+			this.generateOre(world, random, chunkX, chunkZ, ConfigGen.veinCountSilver, ConfigGen.minSilverY, ConfigGen.maxSilverY,
+					ConfigGen.veinSizeSilver, ModBlocks.SilverOre, 0, Blocks.stone);
 	}
 
 	private void generateNether(World world, Random random, int chunkX, int chunkZ)
