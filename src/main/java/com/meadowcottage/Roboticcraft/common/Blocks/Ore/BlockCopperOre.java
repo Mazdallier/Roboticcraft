@@ -3,6 +3,7 @@ package com.meadowcottage.Roboticcraft.common.Blocks.Ore;
 import com.meadowcottage.Roboticcraft.common.Blocks.BlockRoboticcraftOre;
 import com.meadowcottage.Roboticcraft.common.Reference.Names;
 import com.meadowcottage.Roboticcraft.common.Reference.Textures;
+import net.minecraft.block.material.Material;
 
 public class BlockCopperOre extends BlockRoboticcraftOre
 {
