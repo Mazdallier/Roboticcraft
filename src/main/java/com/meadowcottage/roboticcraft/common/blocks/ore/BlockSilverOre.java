@@ -12,5 +12,8 @@ public class BlockSilverOre extends BlockRoboticcraftOre
 		this.setBlockName(Names.Ores.SilverOre);
 		this.setBlockTextureName(Textures.Ores.SilverOre);
 		this.setStepSound(soundTypeMetal);
+		this.setHardness(3.0F);
+		this.setResistance(3.0F);
+		this.setHarvestLevel("pickaxe", 2);
 	}
 }

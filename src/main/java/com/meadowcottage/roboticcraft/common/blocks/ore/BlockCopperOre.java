@@ -12,5 +12,8 @@ public class BlockCopperOre extends BlockRoboticcraftOre
 		this.setBlockName(Names.Ores.CopperOre);
 		this.setBlockTextureName(Textures.Ores.CopperOre);
 		this.setStepSound(soundTypeMetal);
+		this.setHardness(3.0F);
+		this.setResistance(3.0F);
+		this.setHarvestLevel("pickaxe", 2);
 	}
 }
