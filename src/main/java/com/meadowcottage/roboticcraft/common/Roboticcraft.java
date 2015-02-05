@@ -26,15 +26,11 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_Factory_Class)
 public class Roboticcraft
 {
-	// -----------------------------------------------------------------------------------
-
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static IProxy proxy;
 
 	@Mod.Instance(Reference.MOD_ID)
 	public static Roboticcraft instance;
-
-	// -----------------------------------------------------------------------------------
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
@@ -55,7 +51,6 @@ public class Roboticcraft
 	public void init(FMLInitializationEvent event)
 	{
 		Recipes.init();
-		ModWorldGen.init();
 		NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
 		GameRegistry.registerWorldGenerator(new WorldGen(), 0);
 	}
@@ -65,5 +60,4 @@ public class Roboticcraft
 	{
 
 	}
-	// -----------------------------------------------------------------------------------
 }

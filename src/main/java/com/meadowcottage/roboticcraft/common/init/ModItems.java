@@ -11,7 +11,6 @@ import com.meadowcottage.roboticcraft.common.reference.Reference;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
-@GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
 {
 
@@ -24,7 +23,7 @@ public class ModItems
     public static final ItemCopperDust CopperDust = new ItemCopperDust();
     public static final ItemSilverDust SilverDust = new ItemSilverDust();
     public static final ItemSteelDust SteelDust = new ItemSteelDust();
-    //---------------------------------------------------------------------
+
     public static void init()
     {
         //Registering Ingots
@@ -37,5 +36,4 @@ public class ModItems
         GameRegistry.registerItem(SilverDust, Names.Items.SilverDust);
         GameRegistry.registerItem(SteelDust, Names.Items.SteelDust);
     }
-    //---------------------------------------------------------------------
 }

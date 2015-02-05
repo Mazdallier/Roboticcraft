@@ -10,14 +10,12 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModTools
 {
 
-    //Declare Items
+    //Declare Tools
     public static final ItemWrench Wrench = new ItemWrench();
 
-    //---------------------------------------------------------------------
     public static void init()
     {
         //Registering Items
         GameRegistry.registerItem(Wrench, Names.Tools.Wrench);
     }
-    //---------------------------------------------------------------------
 }

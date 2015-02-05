@@ -29,7 +29,6 @@ public class ModBlocks
 	public static final BlockCopperOre CopperOre = new BlockCopperOre();
 	public static final BlockSilverOre SilverOre = new BlockSilverOre();
 
-	// ---------------------------------------------------------------------
 	public static void init()
 	{
 		// Registering Blocks
@@ -45,5 +44,4 @@ public class ModBlocks
 		GameRegistry.registerBlock(CopperOre, Names.Ores.CopperOre);
 		GameRegistry.registerBlock(SilverOre, Names.Ores.SilverOre);
 	}
-	// ---------------------------------------------------------------------
 }
