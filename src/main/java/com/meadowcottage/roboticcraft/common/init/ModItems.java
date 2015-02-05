@@ -7,8 +7,6 @@ import com.meadowcottage.roboticcraft.common.items.ItemSilverDust;
 import com.meadowcottage.roboticcraft.common.items.ItemSteel;
 import com.meadowcottage.roboticcraft.common.items.ItemSteelDust;
 import com.meadowcottage.roboticcraft.common.reference.Names;
-import com.meadowcottage.roboticcraft.common.reference.Reference;
-
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModItems
