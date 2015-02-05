@@ -20,6 +20,9 @@ public class BlockCrusher extends BlockRoboticcraftContainer
 		this.setBlockName(Names.Blocks.Crusher);
 		this.setBlockTextureName(Textures.Blocks.CrusherBlock);
 		this.setStepSound(soundTypeMetal);
+		this.setHardness(2.0F);
+		this.setResistance(2.0F);
+		this.setHarvestLevel("pickaxe", 2);
 	}
 
 	@Override

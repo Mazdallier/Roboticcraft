@@ -30,5 +30,9 @@ public class Textures
     public static final class Tools
     {
         public static final String Wrench = "roboticcraft:Wrench";
+		public static final String SteelSword = "roboticcraft:SteelSword";
+		public static final String SteelPick = "roboticcraft:SteelPick";
+		public static final String SteelShovel = "roboticcraft:SteelShovel";
+		public static final String SteelAxe = "roboticcraft:SteelAxe";
     }
 }

@@ -11,5 +11,8 @@ public class BlockSilver extends BlockRoboticcraft
 		this.setBlockName(Names.Blocks.SilverBlock);
 		this.setBlockTextureName(Textures.Blocks.SilverBlock);
 		this.setStepSound(soundTypeMetal);
+		this.setHardness(2.0F);
+		this.setResistance(2.0F);
+		this.setHarvestLevel("pickaxe", 2);
 	}
 }

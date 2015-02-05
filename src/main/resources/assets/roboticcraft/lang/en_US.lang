@@ -26,3 +26,7 @@ item.roboticcraft:SteelDust.name=Steel Dust
 
 #Tools
 item.roboticcraft:Wrench.name=Wrench
+item.roboticcraft:SteelSword.name=Steel Sword
+item.roboticcraft:SteelPick.name=Steel Pickaxe
+item.roboticcraft:SteelShovel.name=Steel Shovel
+item.roboticcraft:SteelAxe.name=Steel Axe

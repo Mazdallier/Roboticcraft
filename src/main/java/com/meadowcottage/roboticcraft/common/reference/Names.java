@@ -29,5 +29,9 @@ public class Names
     public static final class Tools
     {
         public static final String Wrench = "Wrench";
+		public static final String SteelSword = "SteelSword";
+		public static final String SteelPick = "SteelPick";
+		public static final String SteelShovel = "SteelShovel";
+		public static final String SteelAxe = "SteelAxe";
     }
 }

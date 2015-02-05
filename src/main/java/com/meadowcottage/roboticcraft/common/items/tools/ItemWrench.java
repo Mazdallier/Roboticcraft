@@ -1,5 +1,7 @@
-package com.meadowcottage.roboticcraft.common.items;
+package com.meadowcottage.roboticcraft.common.items.tools;
 
+import com.meadowcottage.roboticcraft.common.items.IUniversalWrench;
+import com.meadowcottage.roboticcraft.common.items.ItemRoboticCraft;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
